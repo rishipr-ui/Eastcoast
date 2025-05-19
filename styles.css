@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display SC",serif;
+}
+
+@media (max-width:640px) {
+  .img {
+  background-image: url('images/newblak.jpeg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position:cover;
+    margin:0;
+  height: 100vh;
+  padding-top:20px;
+}
+}
+
+@media (min-width: 640px){
+
+.img {
+  background-image: url('https://framerusercontent.com/images/Tek3QDXYTGhHVcXeJcr9nVReM.png'); /* Adjust path if needed */
+  background-size: cover;
+  background-position:cover;
+    margin:0;
+  height: 100vh;
+  padding-top:20px;
+}
+}
+
+nav {
+  display: flex;
+  gap:30px;
+  
+  margin-left: 38vw;
+  background-color: rgba(49, 47, 47, 0.58);
+  width: 350px;
+  height: 30px;
+  font-family: "Playfair Display SC", serif;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color:white;
+}
+nav span:hover{
+  color:grey;
+  transition: 0.3s ease-in-out;
+}
+nav span {
+  cursor: pointer;
+}
+.foot1{
+    font-family: "Playfair Display SC",serif;
+    color:rgb(32, 29, 29);
+    margin-top:60vh;
+    margin-left: 20px;
+}
+button{
+    font-family: "Playfair Display SC",serif;
+    height:30px;
+    width:110px;
+    border-radius: 10px;
+    border:none;
+    background-color: grey;
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+button:hover{
+    color:black;
+    background-color: rgb(255, 252, 247);
+    transform: translateX(3px);
+    transition: 0.2s ease-in;
+    
+}
+.card{
+  height:300px;
+  width: 300px;
+  background-color: grey;
+  margin-left: 60px;
+  
+}
+.card:hover{
+  border:20px solid grey;
+  transition: 0.2s ease-in;
+}
+.cards-holder{
+  display:flex;
+}
+.img2 {
+  background-image: url('https://framerusercontent.com/images/xhSxhtH8jTIfPqxl16OO8V6E.webp'); /* Adjust path if needed */
+  background-size: cover;
+  background-position:cover;
+    margin:0;
+  height: 100vh;
+  padding-top:20px;
+  color:brown;
+}
+footer{
+  background-color: black;
+  width:100%;
+  height:200px;
+  color:white;
+}
+
+/*body{
+    background-image: url('images/cropped_1920x1200.jpeg');
+    width: 100%;
+    height: 100%;
+}
